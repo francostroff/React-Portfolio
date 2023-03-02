@@ -1,31 +1,30 @@
 // import logo from './images/logo.png';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavTabs from './components/NavTabs';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="./images/Asset 1-100" className="App-logo" alt="logo" />
-        <span>
-        <h1>
-         Hi I'm Franco Stroff
-        </h1>
-        <h3> An italian-brazilian graphics/motion/web designer 
-          based in London
-        </h3>
-        </span>
-        <a
-          className="App-link"
-          href="https://myportfolio.com/francostroff"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome to my Portfolio
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavTabs />
+        {/* Wrap Route elements in a Routes component */}
+        <Routes>
+          {/* Define routes using the Route component to render different page components at different paths */}
+          {/* Define a default route that will render the Home component */}
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          {/* Define a route that will have descendant routes */}
+          <Route path="contact/*" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
-
 
 export default App;

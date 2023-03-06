@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">
@@ -27,7 +28,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="blog"
+          to="portfolio"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -37,8 +38,28 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="contact"
+          to="projects"
           end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Projects
+        </NavLink>
+      </li>
+
+      <NavLink
+          to="skills"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Skills
+        </NavLink>
+
+      <li className="nav-item">
+        <NavLink
+          to="contact"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -47,14 +68,7 @@ function NavTabs() {
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink
-          to="contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Links
-        </NavLink>
+       
       </li>
     </ul>
 

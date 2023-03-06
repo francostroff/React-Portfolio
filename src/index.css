@@ -1,11 +1,44 @@
 body {
   margin: 0;
-  font-family: "Montserrat";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border: 0px;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  margin-top:30px !important;
+  font-size: 45px !important;
+}
+
+.nav-tabs {
+  border: 0px;
+  background: rgb(10,1,1);
+  background-image: linear-gradient(to right top, #051937, #004066, #006c88, #009995, #1ec48e); 
+}
+
+.nav-link :active{
+  background-color: rgb(14, 8, 1) !important;
+
+}
+
+a {
+  color: aliceblue !important;
+}
+
+a :hover {
+  color: #006c88;
+}
+
+a:active {
+  color: #051937;
+}
+
+
+.card-title {
+ display: flex;
+ justify-content: center;
 }

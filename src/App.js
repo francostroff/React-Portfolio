@@ -1,14 +1,22 @@
 // import logo from './images/logo.png';
+import React from "react";
+import Wrapper from "./components/Wrapper";
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 import NavTabs from './components/NavTabs';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Portfolio from './components/pages/Portfolio';
-import Contact from './components/pages/Contact';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
+    <Wrapper>
     <Router>
       <div>
         <NavTabs />
@@ -19,11 +27,17 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="contact/*" element={<Contact />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="projects" element={<Projects />} />
         </Routes>
-      </div>
-    </Router>
+      <Footer />
+      <div> 
+   </div>
+  </div>
+ </Router>
+
+       </Wrapper>
   );
 }
 

@@ -1,0 +1,8 @@
+.wrapper {
+  background-image: linear-gradient(to right top, #051937, #192831, #000a0d, #750099, #c41e21); 
+  height: 1000px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}

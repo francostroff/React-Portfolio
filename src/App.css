@@ -1,0 +1,89 @@
+.body {
+  font-family: "Montserrat";
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  margin-top:30px;
+  font-size: 45px ;
+}
+
+h2 {
+  margin: 20px;
+  color: white;
+
+}
+
+h3 {
+  margin:20px;
+  color: white;
+}
+h4 {
+color: white;
+  }
+
+p {
+  color: white;
+}
+
+.nav-tabs {
+  border: 0px;
+  background-image: linear-gradient(to right top, #051937, #000000, #000a0d, #750099, #c41e21); 
+}
+
+.card-title {
+ display: flex;
+ justify-content: center;
+}
+
+.btn {
+  font-size: 20px !important;
+  color:rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  background-color: #750099!important;
+  border: 0px!important;
+  margin: 10px !important;
+
+}
+
+.mb-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.image-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+.intro-image {
+width: 50%;
+}
+
+
+.cv-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-text {
+margin-top: -450px;
+margin-right :50px;
+}
+
+.nav-link:active {
+  background-color: none;
+}
+

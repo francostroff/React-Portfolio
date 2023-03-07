@@ -1,18 +1,28 @@
 import React from 'react';
 import {Card, CardGroup} from 'react-bootstrap';
+import videoedit from "../assets/videoedit.jpg";
+import mylogo from "../assets/mylogo.jpg";
+
+import premiere from "../assets/premierePro.jpg";
 
 function card() {
   return (
     <CardGroup>
       <Card>
-        <Card.Img variant="top" src="https://via.placeholder.com/400x200?text=Image+1" />
+        <Card.Img variant="top" src={videoedit} />
        </Card>
       <Card>
-        <Card.Img variant="top" src="https://via.placeholder.com/400x200?text=Image+2" />
+        <Card.Img variant="top" src={mylogo} />
         </Card>
       <Card>
-        <Card.Img variant="top" src="https://via.placeholder.com/400x200?text=Image+3" />
+        <Card.Img variant="top" src={premiere} />
        </Card>
+
+       
+      
     </CardGroup>
+
+    
+    
   )};
 export default card;

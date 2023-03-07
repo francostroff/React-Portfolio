@@ -10,17 +10,14 @@ function About() {
         available to work in a variety of projects,
         alone or in a team.
       </h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
+      <p className="about-text">
+        
+With years of experience in video editing, motion graphics, logo animation, and graphic design, I can help you bring your creative vision to life. Whether you need a promotional video, a social media ad, a short film, or any other type of video content, I have the skills and expertise to make it happen.
+
         </p>
-        <Card></Card>
+        <Card>
+
+        </Card>
       </div>
       
    

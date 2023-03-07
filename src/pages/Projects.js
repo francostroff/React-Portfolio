@@ -1,9 +1,7 @@
 import React from "react"
-import Card from "../components/Card";
+import ProjectCard from "../components/ProjectCard";
+import Wrapper from "../components/Wrapper";
 
-
-
-//import logo from '../assets/logo.jpg';
 
 function Projects() {
   return (
@@ -23,10 +21,27 @@ function Projects() {
    consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
    malesuada fames ac ante ipsum primis in faucibus.
    </p>
-  <Card></Card>
-  <Card></Card>
-  <Card></Card>
- </div>
+   <div class="projects-container">
+    <Wrapper>
+      <div className="row">
+    <ProjectCard></ProjectCard> 
+    
+    <ProjectCard></ProjectCard>
+    <ProjectCard></ProjectCard>
+    </div>
+    <div className="row">
+    <ProjectCard></ProjectCard>
+
+    <ProjectCard></ProjectCard>
+    <ProjectCard></ProjectCard>
+
+ 
+    </div>
+    </Wrapper>
+    
+    </div>
+  </div>
+  
  
   );
 }

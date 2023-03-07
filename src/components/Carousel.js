@@ -1,13 +1,19 @@
 import React from 'react';
+import mylogo from "../assets/mylogo.jpg";
+import deer from "../assets/DEER.png";
 
+let styles = {
+    margin: 'auto',
+    width: '500px'
+  };
 
-function carApp() {
+function carousel() {
   return (
     <Carousel>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400?text=First+slide"
+          src={mylogo}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -18,7 +24,7 @@ function carApp() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400?text=Second+slide"
+          src={mylogo}
           alt="Second slide"
         />
 
@@ -30,7 +36,7 @@ function carApp() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400?text=Third+slide"
+          src={deer}
           alt="Third slide"
         />
 
@@ -43,4 +49,4 @@ function carApp() {
   );
 }
 
-export default carApp;
+export default carousel;

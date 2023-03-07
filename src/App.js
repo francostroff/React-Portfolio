@@ -12,8 +12,6 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Footer from './components/Footer';
 
-
-
 function App() {
   return (
     <Wrapper>
@@ -36,9 +34,7 @@ function App() {
    </div>
   </div>
  </Router>
-
-       </Wrapper>
+  </Wrapper>
   );
 }
-
 export default App;

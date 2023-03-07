@@ -12,7 +12,7 @@ function Portfolio() {
        Here is a collection of jobs that I've done as a freelancer.
       </h2>
 
-      <Card></Card>
+  
 
       <Carousel>
       <Carousel.Item>
@@ -53,7 +53,7 @@ function Portfolio() {
     </Carousel>
 
 
-      
+      <Card></Card>
       
     </div>
     

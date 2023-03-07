@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Horiseon Refactor",
+    "image":
+      "../assets/horiseon-refactor.png",
+    "description": "Fry Cook",
+    
+  },
+  {
+    "id": 2,
+    "name": "Horiseon Refactor",
+    "image":
+      "../assets/weather-app.png",
+      "description": 
+  },
+  {
+    "id": 3,
+    "name": "../assets/proj1.png",
+    "image":
+      "../assets/proj1.png",
+      "description":
+  },
+  {
+    "id": 4,
+    "name": "Horiseon Refactor",
+    "image":
+      "../assets/proj1.png",
+      "description":
+  },
+  {
+    "id": 5,
+    "name": "Horiseon Refactor",
+    "image":
+      "../assets/proj1.png",
+      "description":
+  },
+  {
+    "id": 6,
+    "name": "Horiseon Refactor",
+    "image":
+      "../assets/proj1.png",
+      "description":
+  }
+ 
+]

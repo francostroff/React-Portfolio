@@ -5,8 +5,7 @@ import "../styles/Footer.css";
 function Footer(){
     return(
         <div className="footer">
-        <div> </div>
-        <div> </div>
+        
         <p className="text-center"> &copy; 2023 FS Media</p>
 
         

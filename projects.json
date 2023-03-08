@@ -4,7 +4,7 @@
     "name": "Horiseon Refactor",
     "image":
       "../assets/horiseon-refactor.png",
-    "description": "Fry Cook",
+    "description": "Fry Cook"
     
   },
   {
@@ -12,14 +12,14 @@
     "name": "Horiseon Refactor",
     "image":
       "../assets/weather-app.png",
-      "description": 
+      "description": ""
   },
   {
     "id": 3,
     "name": "../assets/proj1.png",
     "image":
       "../assets/proj1.png",
-      "description":
+      "description":""
   },
   {
     "id": 4,
@@ -33,14 +33,14 @@
     "name": "Horiseon Refactor",
     "image":
       "../assets/proj1.png",
-      "description":
+      "description":""
   },
   {
     "id": 6,
     "name": "Horiseon Refactor",
     "image":
       "../assets/proj1.png",
-      "description":
-  }
+      "description":"" 
+     }
  
 ]

@@ -1,6 +1,6 @@
 import React from "react";
 import  "../App.css";
-import proj5 from "../assets/proj5.png";
+import proj6 from "../assets/weather-app.png";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
@@ -8,7 +8,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 function ProjectCard() {
   return (
     <Card style={{ width: '25rem'}}>
-    <Card.Img variant="top" src={proj5} />
+    <Card.Img variant="top" src={proj6} />
     <Card.Body>
       <Card.Title>Card Title</Card.Title>
       <Card.Text>
@@ -20,10 +20,12 @@ function ProjectCard() {
       <ListGroup.Item>Password Generator</ListGroup.Item>
       <ListGroup.Item>Based on user input</ListGroup.Item>
       <ListGroup.Item>Project #5 Bootcamp</ListGroup.Item>
+      <Card.Link className="project-link" href="#">GitHub Repository</Card.Link>
+      <Card.Link className="project-link" href="#">Live Url</Card.Link>
     </ListGroup>
+    
     <Card.Body>
-      <Card.Link href="#">GitHub Repository</Card.Link>
-      <Card.Link href="#">Live Url</Card.Link>
+     
     </Card.Body>
 
  

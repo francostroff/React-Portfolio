@@ -1,7 +1,12 @@
 import React from "react"
-import ProjectCard from "../components/ProjectCard";
 import Wrapper from "../components/Wrapper";
-
+import ProjectCard1 from "../components/ProjectCard1";
+import ProjectCard2 from "../components/ProjectCard2";
+import ProjectCard3 from "../components/ProjectCard3";
+import ProjectCard4 from "../components/ProjectCard4";
+import ProjectCard5 from "../components/ProjectCard5";
+import ProjectCard6 from "../components/ProjectCard6";
+import ProjectCard7 from "../components/ProjectCard7";
 
 function Projects() {
   return (
@@ -12,28 +17,24 @@ function Projects() {
   This are the projects done for the Bootcamp 2022/23.
  </h2>
  <p>
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-   varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-   Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-   imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-   ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-   elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-   consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-   malesuada fames ac ante ipsum primis in faucibus.
+  This is a collection of the projects that I've done so far for the 
+  Bootcamp 2022/23.
+  This projects involved the use of HTML - CSS - JavaScript -Bootstrap 
+  JSON - Web API - Node.js - React.
+  Have a look at my projects and click on the links to be redirected to the git page and live url.
    </p>
    <div class="projects-container">
     <Wrapper>
       <div className="row">
-    <ProjectCard></ProjectCard> 
-    
-    <ProjectCard></ProjectCard>
-    <ProjectCard></ProjectCard>
+    <ProjectCard1></ProjectCard1> 
+    <ProjectCard2></ProjectCard2>
+    <ProjectCard3></ProjectCard3>
     </div>
     <div className="row">
-    <ProjectCard></ProjectCard>
-
-    <ProjectCard></ProjectCard>
-    <ProjectCard></ProjectCard>
+    <ProjectCard4></ProjectCard4>
+    <ProjectCard5></ProjectCard5>
+    <ProjectCard6></ProjectCard6>
+    <ProjectCard7></ProjectCard7>
 
  
     </div>

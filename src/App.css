@@ -29,7 +29,7 @@ color: white;
   }
 
 p {
-  margin: 30px;
+  margin: 35px;
   color: white;
 }
 
@@ -113,7 +113,8 @@ margin:30px;
   -webkit-text-fill-color: transparent;
   animation: textclip 3s linear infinite;
   display: inline-block;
-      font-size: 25px;
+      font-size: 40px;
+      
     
 }
 
@@ -122,3 +123,19 @@ margin:30px;
     background-position: 200% center;
   }
 }
+
+.project-link {
+  display: flex;
+  font: "Roboto";
+color: #000 !important;
+margin: 0px;
+font-size: 25px;
+text-decoration: none;
+justify-content: center;
+}
+
+
+.card-text {
+ color: #000!important;
+}
+

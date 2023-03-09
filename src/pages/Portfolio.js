@@ -12,8 +12,6 @@ function Portfolio() {
        Here is a collection of jobs that I've done as a freelancer.
       </h2>
 
-  
-
       <Carousel>
       <Carousel.Item>
         <img

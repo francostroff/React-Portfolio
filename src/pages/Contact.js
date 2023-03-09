@@ -12,7 +12,7 @@ function Contact() {
       <Link to="https://github.com/francostroff" role="button" className="btn btn-link">
         GitHub
       </Link>
-      <Link to="https://myportfolio.com/francostroff" role="button" className="btn btn-link">
+      <Link to="https://francostroff.myportfolio.com/" role="button" className="btn btn-link">
         Adobe Portfolio
       </Link>
       <Link to="https://www.linkedin.com/in/franco-stroff-285886268/" role="button" className="btn btn-link">

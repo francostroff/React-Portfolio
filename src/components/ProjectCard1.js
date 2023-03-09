@@ -12,8 +12,8 @@ function ProjectCard1() {
     <Card.Body>
       <Card.Title>Horiseon Refactor</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+       Code Refactor for Horiseon Website.
+       Updating code to semantic HTML and adding alt attributes to images.
       </Card.Text>
     </Card.Body>
     <ListGroup className="list-group-flush">

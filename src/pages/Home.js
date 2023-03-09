@@ -13,10 +13,12 @@ function Home() {
           src={require('../assets/SelfPotrait.png')} 
           alt="selfpotrait"
         /> 
-        <div className="text-home"><h4 id="home-text" className="animate-charcter">Welcome to my page, where creativity meets innovation! As a versatile video editor, designer, and illustrator, I offer a range of services to help bring your vision to life. Whether you're looking to create a captivating video, design a stunning website, or illustrate a unique concept, I have the skills and expertise to deliver exceptional results.
+        <div className="text-home">
+          <h4 id="animate-charcter">Welcome to my page, where creativity meets innovation! As a versatile video editor, designer, and illustrator, I offer a range of services to help bring your vision to life. Whether you're looking to create a captivating video, design a stunning website, or illustrate a unique concept, I have the skills and expertise to deliver exceptional results.
         
         </h4>
         </div>
+        
   </div>
 </div>
 );

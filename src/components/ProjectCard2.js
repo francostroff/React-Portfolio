@@ -12,8 +12,7 @@ function ProjectCard2() {
     <Card.Body>
       <Card.Title>HTML - CSS Portfolio</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+        Created an HTML/CSS web Portfolio from scratch adding some personal style to it.
       </Card.Text>
     </Card.Body>
     <ListGroup className="list-group-flush">

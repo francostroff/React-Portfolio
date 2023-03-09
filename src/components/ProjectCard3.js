@@ -12,8 +12,8 @@ function ProjectCard() {
     <Card.Body>
       <Card.Title>Bootstrap Portfolio</Card.Title>
       <Card.Text className="card-text">
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      Recreate a similar portfolio to challenge 2 but this time with bootstrap.
+      HTML/CSS/Bootstrap.
       </Card.Text>
     </Card.Body>
     <ListGroup className="list-group-flush">

@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../components/Button";
 import png from "../assets/CV2022-23.png";
 
+
+
 function mySkills() {
   return (
     <div>
@@ -9,6 +11,7 @@ function mySkills() {
 
       
        <Button></Button>
+      
      
       <div className="cv-container">
       <img class="intro-image"

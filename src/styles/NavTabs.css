@@ -7,6 +7,16 @@
   
   .nav-tabs:hover {
     border: 10px;
-    background-image: linear-gradient(to right top, #051937, #000000, #000a0d, #750099, #c41e21); 
+   
   }
+
+  .nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: white(--bs-link-color);
+    --bs-nav-link-hover-color: purple(--bs-link-hover-color);
+  }
+
+ 
 

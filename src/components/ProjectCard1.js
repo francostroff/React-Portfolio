@@ -17,8 +17,8 @@ function ProjectCard1() {
       </Card.Text>
     </Card.Body>
     <ListGroup className="list-group-flush">
-      <ListGroup.Item>Password Generator</ListGroup.Item>
-      <ListGroup.Item>Based on user input</ListGroup.Item>
+      <ListGroup.Item>Code Refactor</ListGroup.Item>
+      <ListGroup.Item>HTML - CSS</ListGroup.Item>
       <ListGroup.Item>Project #1 Bootcamp</ListGroup.Item>
       
     </ListGroup>

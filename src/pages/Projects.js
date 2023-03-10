@@ -8,13 +8,14 @@ import ProjectCard5 from "../components/ProjectCard5";
 import ProjectCard6 from "../components/ProjectCard6";
 import ProjectCard7 from "../components/ProjectCard7";
 
+
 function Projects() {
   return (
     
     <div>
     <h1 className="text-center">Web Projects</h1>
  <h2 className="text-center">
-  This are the projects done for the Bootcamp 2022/23.
+  This are some of the projects I've done for the Bootcamp 2022/23.
  </h2>
  <p>
   This is a collection of the projects that I've done so far for the 
@@ -34,6 +35,8 @@ function Projects() {
     <ProjectCard4></ProjectCard4>
     <ProjectCard5></ProjectCard5>
     <ProjectCard6></ProjectCard6>
+    <ProjectCard7></ProjectCard7>
+    <ProjectCard7></ProjectCard7>
     <ProjectCard7></ProjectCard7>
 
  

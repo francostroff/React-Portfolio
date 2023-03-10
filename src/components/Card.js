@@ -16,12 +16,7 @@ function card() {
       <Card>
         <Card.Img className="projImg"variant="top" src={premiere} />
        </Card>
+</CardGroup>
 
-       
-      
-    </CardGroup>
-
-    
-    
-  )};
+)};
 export default card;

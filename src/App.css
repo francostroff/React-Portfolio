@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .body {
   font-family: "Montserrat";
 }
@@ -50,7 +54,6 @@ p {
   background-color: #750099!important;
   border: 0px!important;
   margin: 10px !important;
-
 }
 
 .mb-2{
@@ -64,14 +67,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
- 
-
 }
 
 .intro-image {
 width: 50%;
 }
-
 
 .cv-container {
   display: flex;
@@ -80,7 +80,7 @@ width: 50%;
 }
 
 #home-text {
-margin:30px;
+margin: 30px !important;
 }
 
 .row {
@@ -89,19 +89,28 @@ margin:30px;
   justify-content: center;
   align-content: center;
 }
+
 .card {
-  border-radius: 30px;
-  margin: 30px;
-  background-color: #929292!important;
+margin: 20px;
+  border-radius: 10px!important;
+  border: 10px!important;
+}
+
+.card:hover {
+ color: #000!important;
+ background-color: #f5df4e;
+}
+
+.list-group-item{
+  border-radius: 10px! important;
 }
 
 #animate-charcter
 {
   margin-left: 10px;
-   text-transform: uppercase;
   background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
+    -270deg,
+    #392e60 0%,
     #44107a 29%,
     #ff1361 67%,
     #fff800 100%
@@ -114,16 +123,13 @@ margin:30px;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
+  animation: textclip 5s infinite;
   display: inline-block;
-    
-      
-    
 }
 
 @keyframes textclip {
   to {
-    background-position: 200% center;
+    background-position: 100% center;
   }
 }
 
@@ -136,11 +142,9 @@ text-decoration: none;
 justify-content: center;
 }
 
-
 .card-text {
  color: #000!important;
 }
-
 
 @media screen and (max-width: 1000px) {
   #animate-charcter {
@@ -207,13 +211,27 @@ justify-content: center;
   --bs-nav-tabs-border-color: #000000;
   --bs-nav-tabs-border-radius: 0.375rem;
   --bs-nav-tabs-link-hover-border-color: #e9ecef #e9ecef #dee2e6;
-  --bs-nav-tabs-link-active-color: #495057;
-   --bs-nav-tabs-link-active-bg: purple; 
+  --bs-nav-tabs-link-active-color: #000000;
+   --bs-nav-tabs-link-active-bg: purple!important; 
   --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
 }
 
 
 .projImg {
-  height: 250px;
+height: 10rem/20rem;
+background-color: black!important;
 }
+
+.nav-link {
+  color: #dee2e6!important;
+}
+
+#top-title {
+  font-size: 65px;
+}
+
+.project-link:hover {
+color:#c41e21;
+}
+

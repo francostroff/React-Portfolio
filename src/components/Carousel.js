@@ -1,6 +1,7 @@
 import React from 'react';
 import mylogo from "../assets/mylogo.jpg";
 import deer from "../assets/DEER.png";
+import {Carousel}from "react-bootstrap";
 
 let styles = {
     margin: 'auto',

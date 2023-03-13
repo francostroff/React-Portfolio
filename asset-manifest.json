@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.14a0fafe.css",
-    "main.js": "/React-Portfolio/static/js/main.93aa442b.js",
+    "main.css": "/React-Portfolio/static/css/main.406878e0.css",
+    "main.js": "/React-Portfolio/static/js/main.b97f105c.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/premierePro.jpg": "/React-Portfolio/static/media/premierePro.0a98e59ab96765110dd1.jpg",
     "static/media/videoedit.jpg": "/React-Portfolio/static/media/videoedit.1decf2fa4c6dcc55a110.jpg",
+    "static/media/DEER.png": "/React-Portfolio/static/media/DEER.c2c5c300ce3530833d02.png",
     "static/media/SelfPotrait.png": "/React-Portfolio/static/media/SelfPotrait.bb0db4dda156475ebcbd.png",
-    "static/media/CV 2022-23.png": "/React-Portfolio/static/media/CV 2022-23.05cf2220b521d6814525.png",
+    "static/media/react_portfolio.png": "/React-Portfolio/static/media/react_portfolio.75ddc29a32548c696a9f.png",
+    "static/media/CV2022-23.png": "/React-Portfolio/static/media/CV2022-23.05cf2220b521d6814525.png",
+    "static/media/horiseon-refactor.png": "/React-Portfolio/static/media/horiseon-refactor.6fbad7058f42c1fb76dc.png",
+    "static/media/nobunaga_honor.jpeg": "/React-Portfolio/static/media/nobunaga_honor.887737362b5d495de8b9.jpeg",
+    "static/media/Oniogre.png": "/React-Portfolio/static/media/Oniogre.67d51ef7f10c1af07f80.png",
+    "static/media/proj2.png": "/React-Portfolio/static/media/proj2.5414ee33736fc71c8415.png",
+    "static/media/proj1.png": "/React-Portfolio/static/media/proj1.58773218926dd38b5623.png",
+    "static/media/quiz.gif": "/React-Portfolio/static/media/quiz.af2285f98ad7313837a3.gif",
+    "static/media/weather-app.png": "/React-Portfolio/static/media/weather-app.7e9fcf63d423e8f46b0e.png",
     "static/media/mylogo.jpg": "/React-Portfolio/static/media/mylogo.97462099a4d869202d94.jpg",
     "static/media/proj5.png": "/React-Portfolio/static/media/proj5.aa25cbf89939def02f6b.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.14a0fafe.css.map": "/React-Portfolio/static/css/main.14a0fafe.css.map",
-    "main.93aa442b.js.map": "/React-Portfolio/static/js/main.93aa442b.js.map",
+    "main.406878e0.css.map": "/React-Portfolio/static/css/main.406878e0.css.map",
+    "main.b97f105c.js.map": "/React-Portfolio/static/js/main.b97f105c.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14a0fafe.css",
-    "static/js/main.93aa442b.js"
+    "static/css/main.406878e0.css",
+    "static/js/main.b97f105c.js"
   ]
 }

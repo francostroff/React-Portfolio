@@ -36,8 +36,8 @@ function Projects() {
     <ProjectCard5></ProjectCard5>
     <ProjectCard6></ProjectCard6>
     <ProjectCard7></ProjectCard7>
-    <ProjectCard7></ProjectCard7>
-    <ProjectCard7></ProjectCard7>
+  
+    
 
  
     </div>

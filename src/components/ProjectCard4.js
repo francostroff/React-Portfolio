@@ -20,7 +20,7 @@ function ProjectCard() {
       <ListGroup.Item>Password Generator</ListGroup.Item>
       <ListGroup.Item>Based on user input</ListGroup.Item>
       <ListGroup.Item>Project #5 Bootcamp</ListGroup.Item>
-      <Card.Link className="project-link" href="#">GitHub</Card.Link>
+      <Card.Link className="project-link" href="https://github.com/francostroff/Password-Generator">GitHub</Card.Link>
       <Card.Link className="project-link" href="#">Live Url</Card.Link>
     </ListGroup>
     

@@ -13,7 +13,7 @@ function ProjectCard1() {
       <Card.Title>Horiseon Refactor</Card.Title>
       <Card.Text>
        Code Refactor for Horiseon Website.
-       Updating code to semantic HTML and adding alt attributes to images.
+       Updated code to semantic HTML and adding alt attributes to images.
       </Card.Text>
     </Card.Body>
     <ListGroup className="list-group-flush">

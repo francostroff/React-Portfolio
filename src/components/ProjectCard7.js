@@ -10,17 +10,16 @@ function ProjectCard() {
     <Card style={{ width: '25rem'}}>
     <Card.Img variant="top" src={proj6} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>React Portfolio</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+        A multi page React portoflio displaying my work as designer and front end developer.
       </Card.Text>
     </Card.Body>
     <ListGroup className="list-group-flush">
-      <ListGroup.Item>Password Generator</ListGroup.Item>
-      <ListGroup.Item>Based on user input</ListGroup.Item>
-      <ListGroup.Item>Project #5 Bootcamp</ListGroup.Item>
-      <Card.Link className="project-link" href="#">GitHub Repository</Card.Link>
+      <ListGroup.Item>React Portfolio</ListGroup.Item>
+      <ListGroup.Item>React - JSX - CSS</ListGroup.Item>
+      <ListGroup.Item>Project #13 Bootcamp</ListGroup.Item>
+      <Card.Link className="project-link" href="#">GitHub</Card.Link>
       <Card.Link className="project-link" href="#">Live Url</Card.Link>
     </ListGroup>
     
